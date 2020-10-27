@@ -23,6 +23,7 @@
 body {
     background-color: #121415;
     margin: 0;
+    padding: 0;
     font-size: 18px;
 }
 nav {
@@ -135,9 +136,7 @@ select {
 	color: #D5BF86;
 	height: 600px;
 }
-#features {
-    height: 2400px;
-}
+
 article {
     max-width: 30%;
 }
@@ -202,12 +201,8 @@ article img {
 #buynow2{
     margin-top: 20px;
 }
-#firstFeature{
-    margin-left: 5%;
-    margin-bottom: 80px;
-    background-color: #383b53;
-}
-#secondFeature{
+
+/* #secondFeature{
     margin-right: 20%;
     background-color: #32213a;
     margin-top: 600px;
@@ -223,22 +218,18 @@ article img {
     background-color: #32213a;
     margin-top: 600px;
     margin-top: 1800px;
-}
-.textFeature{
+} */
+/* .textFeature{
     height: 200px;
     float: left;
     width: 30%;
     margin-left: 10%;
     margin-top: 5%;
-}
-.videoFeature{
-   float: left;
-   margin-left: 10%;
-}
+} */
+
 .videoFeatureLoop{
-    height: 400px;
-    width: 700px;
-    float: left;
+    
+    width: 100%;
     border: rgb(213,191,134,.5) 2px solid;
     box-shadow: 0px 0px 15px 4px #D5BF86;
 }
