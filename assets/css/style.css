@@ -1,0 +1,347 @@
+@font-face {
+    font-family: "CatullBQ Bold";
+    src: url('../font/CatullBQ\ Bold.ttf');
+}
+
+@font-face {
+    font-family: "CatullBQ Regular";
+    src: url('../font/CatullBQ\ Regular.ttf');
+}
+
+@font-face {
+    font-family: "CatullBQ Italic";
+    src: url('../font/CatullBQ\ Italic.ttf');
+}
+
+/* navbar */
+
+* {
+    color: #D4D6B9;
+    font-family: "CatullBQ Regular";
+}
+
+body {
+    background-color: #121415;
+    margin: 0;
+    font-size: 18px;
+}
+nav {
+    background: rgba(18, 20, 21, 0.8);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+}
+
+nav a {
+    color: #D4D6B9;
+    font-size: 16px;
+    opacity: 1.0;
+    margin-top: 20px;
+    text-decoration: none;
+    text-shadow: 0 0 10px #D4D6B9, 0 0 20px #D4D6B9, 0 0 40px #D4D6B9;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #F1F0CC;
+}
+
+nav, nav a, nav a::before {
+    display: block;
+}
+
+nav a::before {
+    content: '';
+    height: 5px;
+    width: 0%;
+    background: #D5BF86;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/* end navbar */
+
+#bgvid {
+    max-width: 100%;
+    z-index: -1;
+}
+
+main, footer {
+    color: #D4D6B9;
+}
+
+#buying {
+    height: 575px;
+}
+
+#buying, #features {
+    background-color: #121415;
+}
+
+#buying, #news, #features {
+    padding: 30px;
+}
+
+h1, h2 {
+  font-size: 2.3em;
+}
+h1,h2,h3{
+    columns: #D5BF86;
+    text-align: center;
+}
+h3{
+    color: #D5BF86;
+}
+#platform {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    background-color: transparent;
+    cursor: pointer;
+    font-family: "CatullBQ Regular";
+    padding: 2px 35px 2px 5px;
+}
+#news{
+	background-color: #250302;
+	color: #D5BF86;
+	height: 600px;
+}
+#features {
+    height: 2400px;
+}
+article {
+    max-width: 30%;
+}
+
+article img {
+    max-width: 80%;
+}
+
+#info {
+    height: 55%;
+    padding: 10px;
+    margin-left: 15%;
+    width: 50%;
+}
+#info p{
+    text-indent: 20px;
+    text-align: justify;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+#demo {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+#demo > img{
+    border: rgb(213,191,134,.5) 2px solid;
+}
+.align{
+    display: flex;
+    justify-content: center;
+}
+#available{
+    text-align: center;
+}
+#buy {
+    margin-left: auto;
+    width: 150px;
+}
+
+#buy p {
+    text-align: center;
+    text-transform: uppercase;
+}
+#buynow{
+    color: #D5BF86;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #D5BF86;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #D4D6B9, 0 0 20px #D4D6B9, 0 0 40px #D4D6B9;
+    margin-top: 10px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 150px;
+}
+#buynow2{
+    margin-top: 20px;
+}
+#firstFeature{
+    margin-left: 5%;
+    margin-bottom: 80px;
+    background-color: #383b53;
+}
+#secondFeature{
+    margin-right: 20%;
+    background-color: #32213a;
+    margin-top: 600px;
+}
+#thirdFeature{
+    margin-left: 5%;
+    margin-bottom: 80px;
+    margin-top: 1200px;
+    background-color: #383b53;
+}
+#fourthFeature{
+    margin-right: 20%;
+    background-color: #32213a;
+    margin-top: 600px;
+    margin-top: 1800px;
+}
+.textFeature{
+    height: 200px;
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.videoFeature{
+   float: left;
+   margin-left: 10%;
+}
+.videoFeatureLoop{
+    height: 400px;
+    width: 700px;
+    float: left;
+    border: rgb(213,191,134,.5) 2px solid;
+    box-shadow: 0px 0px 15px 4px #D5BF86;
+}
+footer{
+    height: 300px;
+    margin-top: auto;
+    background-color: #000;
+}
+.socialMedias{
+    font-size: 32px;
+    letter-spacing: 30px;
+    color: #f1f0cc;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+.footerInfos{
+    margin-left: 30%;
+}
+.logos{
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+}
+.trademarks{
+    width: 40%;
+    height: 30%;
+    color:#f7ece1;
+    float: left;
+}
+#newsScreen{
+	float: left;
+	width: 50%;
+	height: 500px;
+}
+#screen{
+	display: block;
+	border: rgb(213,191,134,.5) 2px solid;
+	margin: 73px auto;
+}
+#listContainer{
+	float: left;
+	width: 50%;
+	height: 505px;
+}
+#newsList{
+	list-style: none;
+	display: block;
+	height: 70%;
+	width: 80%;
+	border: rgb(213,191,134,.5) 2px solid;
+	border-radius: 5px;
+	margin: 70px auto;
+	padding-inline-start: 0;
+	box-shadow: 0px 0px 15px 4px #D5BF86;
+}
+#newsList > li{
+	width: 95%;
+	margin: 0 auto;
+	font-size: 25px;
+	padding: 9px 0;
+	background-color: #250302;
+	border-bottom: 1px solid rgb(255,255,255,.2);
+}
+#newsList > li:last-child{
+	border-bottom: none
+}
+#newsList > li:hover{
+	background-color: rgb(32, 32, 32);
+	transition: .4s;
+}
+.newsDate{
+	font-style: italic;
+}
+#newsList > p{
+	margin: 5px auto;
+}
+.pNews{
+	margin: 10px auto;
+}
+.newsDate{
+	color: rgb(213,191,134,0.6);
+	padding-left: 40px;
+	font-size: 20px;
+}
+.newsTitle{
+    padding-left: 100px;
+}
+.newsItem{
+	box-sizing: content-box;
+	text-decoration: none;
+}
+
+#logoB{
+    margin-left: 50px;
+}
+#CGU{
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.textCGU{
+    cursor: pointer;
+}
+.textCGU:hover{
+    text-decoration: underline;
+}
