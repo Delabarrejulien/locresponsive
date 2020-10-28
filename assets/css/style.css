@@ -18,6 +18,7 @@
     font-family: "CatullBQ Regular";
 }
 
+<<<<<<< HEAD
 
 /* Html, body, fontsize */
 
@@ -216,6 +217,9 @@ article img {
 }
 
 #buynow {
+=======
+button{
+>>>>>>> title
     color: #D5BF86;
     cursor: pointer;
     background-color: transparent;
@@ -229,6 +233,7 @@ article img {
     padding: 5px;
     width: 150px;
 }
+<<<<<<< HEAD
 
 #buynow2 {
     margin-top: 20px;
@@ -387,3 +392,5 @@ footer {
         height: 6%
     }
 }
+=======
+>>>>>>> title
