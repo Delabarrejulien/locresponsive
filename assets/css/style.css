@@ -13,6 +13,7 @@
     src: url('../font/CatullBQ\ Italic.ttf');
 }
 
+<<<<<<< HEAD
 * {
     color: #D4D6B9;
     font-family: "CatullBQ Regular";
@@ -123,6 +124,58 @@ nav a:hover::before {
 
 
 /* end navbar */
+=======
+#events {
+    list-style-type: none;
+    display: block;
+    border: rgb(213, 191, 134, .5) 2px solid;
+    box-shadow: 0px 0px 15px 4px #D5BF86;
+    border-radius: 5px;
+}
+
+.newsamiens {
+    text-align: center;
+}
+
+#titlenews {margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+hr{ background-color:#D5BF86;
+margin: 10%;}
+li{margin-left: 5%;}
+
+#screen {
+    display: block;
+    
+}
+ #screen img{ max-width: 96%;
+    border: rgb(213, 191, 134, .5) 2px solid;
+    }  
+/* navbar */
+
+* {
+    color: #D4D6B9;
+    font-family: "CatullBQ Regular";
+}
+
+body {
+    background-color: #121415;
+    margin: 0;
+    font-size: 18px;
+}
+
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+>>>>>>> news
 
 #bgvid {
     max-width: 100%;
@@ -149,6 +202,10 @@ footer {
     padding: 30px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> news
 #platform {
     display: flex;
     justify-content: center;
@@ -164,6 +221,7 @@ select {
 #news {
     background-color: #250302;
     color: #D5BF86;
+<<<<<<< HEAD
     height: 600px;
 }
 
@@ -394,3 +452,10 @@ footer {
 }
 =======
 >>>>>>> title
+=======
+    height: 100%;
+
+
+
+
+>>>>>>> news
