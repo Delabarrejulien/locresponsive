@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
 
@@ -19,25 +20,27 @@
     <!--Header-->
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
-            <img src="https://cdn.discordapp.com/attachments/765837548307480606/766309941660221463/loc.png" alt="logo du jeu Lords of Conjury" />
+            <img src="https://cdn.discordapp.com/attachments/765837548307480606/766309941660221463/loc.png"
+                alt="logo du jeu Lords of Conjury" />
 
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="assets/img/picto/swords.png" alt="Sword menu bruger">
             </button>
 
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item px-5">
+                    <li class="nav-item px-4">
                         <a class="nav-link" href="#buying">Achat</a>
                     </li>
-                    <li class="nav-item px-5">
+                    <li class="nav-item px-4">
                         <a class="nav-link" href="#news">Nouveautés</a>
                     </li>
-                    <li class="nav-item px-5">
+                    <li class="nav-item px-4">
                         <a class="nav-link" href="#features">Features</a>
                     </li>
-                    <li class="nav-item px-5">
+                    <li class="nav-item px-4">
                         <a class="nav-link" href="#" target="_blank">Boutique</a>
                     </li>
                 </ul>
@@ -48,23 +51,26 @@
 
     <!--Vidéo d'introduction du site-->
 
-    <video id="bgvid" poster="https://titanquestgame.com/wp-content/themes/titanquest/img/tqa-art.jpg" loop="" muted="">
-            <source src="https://titanquestgame.com/wp-content/themes/titanquest/videos/tqa-webtrailer.mp4"
-                type="video/mp4" />
-        </video>
+    <video id="bgvid" poster="https://titanquestgame.com/wp-content/themes/titanquest/img/tqa-art.jpg" loop=""
+        autoplay="" muted="">
+        <source src="https://titanquestgame.com/wp-content/themes/titanquest/videos/tqa-webtrailer.mp4"
+            type="video/mp4" />
+    </video>
 
     <!-- Fin bidéo introduction du site -->
 
-        <main class="container-fluid p-0  py-5" style="background-color: #121415;">
+    <main id="main" class="container-fluid p-0  py-5" style="background-color: #121415;">
         <section class="row col-12 m-0 p-0">
             <h1 class="text-center col-12 p-0 m-0 my-5">Le nouveau RPG révolutionnaire</h1>
 
 
-            <img class="col-12 col-md-3 order-md-last my-5 img-fluid titleimg" style=" height: 200px; margin-right: 15%;  border: rgb(213,191,134,.5) 2px solid;padding: 0;"
+            <img class="col-12 col-md-3 order-md-last my-5 img-fluid titleimg"
+                style=" height: 200px; margin-right: 15%;  border: rgb(213,191,134,.5) 2px solid;padding: 0;"
                 src="https://cdn.discordapp.com/attachments/765837548307480606/766571599490449408/locjaquette.jpg" />
             <div class="col-md-5 my-5 mx-auto" style="color: #D5BF86;">
                 <h3 class="text-center order-md-first" style="color: #D5BF86;">Découvrez un tout nouveau monde</h3>
-                <p class="mx-3 text-justify mt-2" style="font-size: 16px;">&nbsp &nbsp Le co-créateur d'Age of Empires, Brian Sullivan, et l'écrivain
+                <p class="mx-3 text-justify mt-2" style="font-size: 16px;">&nbsp &nbsp Le co-créateur d'Age of Empires,
+                    Brian Sullivan, et l'écrivain
                     de Braveheart,
                     Randall Wallace, proposent un jeu de rôle d'action innovant se déroulant dans la Grèce antique,
                     l'Égypte et l'Asie. Les Titans ont échappé à leur prison éternelle,
@@ -80,65 +86,74 @@
             <i class="fab fa-xbox mx-auto"></i>
             <i class="fas fa-desktop mx-auto"></i>
         </div>
-        <button class="mx-auto my-4 ">Buy now !</button>
+        <button id="butlau" class="mx-auto my-4 ">Buy now !</button>
 
 
 
     </main>
-    
-    <section id="news">
 
-        <h2 id="titlenews" class="newsamiens">Nouveautés</h2>
 
-        <div class="container">
 
-            <div class="row">
-                <div id="screen" class="col-12 col-md-6 mt-5  m-0 p-0 text-center align-items-center" >
-                    <img src="assets/img/screenshot.jpg" class="img-fluid" alt="image du jeu" />
-                </div>
 
-                <div class="col-12 col-md-5 ml-md-5 my-5">
-                    <ul class="p-0 py-2" id="events" >
+    <div id="news" class="container-fluid" style="background-color:  #250302;">
 
-                        <li><span style="color:rgb(213, 191, 134, .5) ;"> 11/10/20</span> &nbsp Hotfix patch 1.2.1</li>
-                        <hr>
-
-                        <li><span style="color:rgb(213, 191, 134, .5) ;"> 09/10/20</span> &nbsp La mise à jour 1.2 est disponible !</li>
-                        <hr>
-
-                        <li><span style="color:rgb(213, 191, 134, .5) ;"> 03/09/20</span> &nbsp Preview de la future mise à jour 1.2</li>
-                        <hr>
-
-                        <li><span style="color:rgb(213, 191, 134, .5) ;"> 27/08/20</span> &nbsp Du nouveau dans la boutique !</li>
-                        <hr>
-
-                        <li><span style="color:rgb(213, 191, 134, .5) ;"> 20/08/20</span> &nbsp Sondage:events,pour ou contre ?</li>
-                        
-
-                    </ul>
-                </div>
+        <div class="row">
+            <h2 class="col-12 text-center">Nouveautés</h2>
+            <div id="screen" class="col-md-6 mt-5  m-0 p-0 text-center">
+                <img src="assets/img/screenshot.jpg" class="img-fluid" alt="image du jeu" />
             </div>
+
+            <div class="col-md-5 ml-md-5 my-5">
+                <ul class=" col-12 p-0 py-2" id="events">
+
+                    <li><span style="color:rgb(213, 191, 134, .5) ;"> 11/10/20</span> &nbsp Hotfix patch 1.2.1</li>
+                    <hr>
+
+                    <li><span style="color:rgb(213, 191, 134, .5) ;"> 09/10/20</span> &nbsp La mise à jour 1.2 est
+                        disponible !</li>
+                    <hr>
+
+                    <li><span style="color:rgb(213, 191, 134, .5) ;"> 03/09/20</span> &nbsp Preview de la future mise à
+                        jour 1.2</li>
+                    <hr>
+
+                    <li><span style="color:rgb(213, 191, 134, .5) ;"> 27/08/20</span> &nbsp Du nouveau dans la boutique
+                        !</li>
+                    <hr>
+
+                    <li><span style="color:rgb(213, 191, 134, .5) ;"> 20/08/20</span> &nbsp Sondage:events,pour ou
+                        contre ?</li>
+
+
+                </ul>
+            </div>
+
         </div>
-    </section>
 
 
+    </div>
     <!-- Features -->
 
-    <h2>Features</h2>
+
 
     <!-- First video block -->
-    <div class="container">
+    <div id="features" class="container-fluid">
         <div class="row">
+            <h2 class="col-12 text-center">Features</h2>
 
-            <div class="col-12 order-first col-lg-6 m-auto">
+            <div class="col-lg-6 m-auto">
                 <h3>Une aventure épique et fantastique</h3>
-                <p>Vivez une aventure solo immersive. Venu d'un autre monde, vous embarquez pour un voyage en quête de votre identité et de votre famille, mais aussi pour percer les secrets de Teyvat.
+                <p>Vivez une aventure solo immersive. Venu d'un autre monde, vous embarquez pour un voyage en quête de
+                    votre identité et de votre famille, mais aussi pour percer les secrets de Teyvat.
                 </p>
             </div>
 
-            <div class="col-12 order-last col-lg-6 py-5 mx-auto">
-                <video class="videoFeatureLoop" muted="" loop="" controls="" playsinline="" webkit-playsinline="true" poster="https://wolcengame.com/static/images/hero_shipwreck.ae969d937fe4.jpg" data-src="https://wolcengame.com/media_docs/16/vividaction.mp4" src="https://wolcengame.com/media_docs/16/vividaction.mp4"
-                    data-was-processed="true">
+            <div class="col-12 col-lg-6 py-5 mx-auto">
+                <video class="videoFeatureLoop" muted="" loop="" autoplay="" controls="" playsinline=""
+                    webkit-playsinline="true"
+                    poster="https://wolcengame.com/static/images/hero_shipwreck.ae969d937fe4.jpg"
+                    data-src="https://wolcengame.com/media_docs/16/vividaction.mp4"
+                    src="https://wolcengame.com/media_docs/16/vividaction.mp4" data-was-processed="true">
                     <source type="video/mp4" data-src="https://wolcengame.com/media_docs/16/vividaction.mp4"
                         src="https://wolcengame.com/media_docs/16/vividaction.mp4" />
                 </video>
@@ -149,16 +164,21 @@
 
     <!-- Second video block -->
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12 order-first col-lg-6 order-lg-last m-auto">
                 <h3>Maîtrisez les sept éléments</h3>
-                <p>Ne foncez pas tête baissée dans l'aventure : manipulez les différents éléments pour venir à bout de puissants ennemis et résoudre des énigmes complexes.</p>
+                <p>Ne foncez pas tête baissée dans l'aventure : manipulez les différents éléments pour venir à bout de
+                    puissants ennemis et résoudre des énigmes complexes.</p>
             </div>
             <div class="col-12 order-last col-lg-6 order-lg-first py-5 mx-auto">
                 <div class="videoFeature">
-                    <video class="videoFeatureLoop" muted="" loop="" controls="" playsinline="" webkit-playsinline="true" poster="ttps://wolcengame.com/static/images/hero__female_armoured.c033eef0d3b2.jpg" data-src="https://wolcengame.com/media_docs/19/website_formeapo_uDyAywI.mp4"
-                        src="https://wolcengame.com/media_docs/19/website_formeapo_uDyAywI.mp4" data-was-processed="true">
+                    <video class="videoFeatureLoop" muted="" loop="" autoplay="" controls="" playsinline=""
+                        webkit-playsinline="true"
+                        poster="ttps://wolcengame.com/static/images/hero__female_armoured.c033eef0d3b2.jpg"
+                        data-src="https://wolcengame.com/media_docs/19/website_formeapo_uDyAywI.mp4"
+                        src="https://wolcengame.com/media_docs/19/website_formeapo_uDyAywI.mp4"
+                        data-was-processed="true">
                         <source type="video/mp4"
                             data-src="https://wolcengame.com/media_docs/19/website_formeapo_uDyAywI.mp4"
                             src="https://wolcengame.com/media_docs/19/website_formeapo_uDyAywI.mp4" />
@@ -170,16 +190,20 @@
 
     <!-- Third video block  -->
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12 order-first col-lg-6 order-lg-first m-auto">
                 <h3>Un système de progression unique</h3>
-                <p>Atteignez le pouvoir ultime grâce aux 21 classes uniques disponibles dans l'arbe de compétences. Personnalisez votre personnage en essayant la multitude de combinaisons disponibles.
+                <p>Atteignez le pouvoir ultime grâce aux 21 classes uniques disponibles dans l'arbe de compétences.
+                    Personnalisez votre personnage en essayant la multitude de combinaisons disponibles.
                 </p>
             </div>
             <div class="col-12 order-last col-lg-6 order-lg-last py-5 mx-auto">
                 <div class="videoFeature">
-                    <video class="videoFeatureLoop" muted="" loop="" controls="" playsinline="" webkit-playsinline="true" poster="https://wolcengame.com/media_img/images/Warmongering_conquerors.max-1920x1920.jpg" data-src="https://wolcengame.com//media_docs/15/PST_NodeActivation.mp4"
+                    <video class="videoFeatureLoop" muted="" loop="" autoplay="" controls="" playsinline=""
+                        webkit-playsinline="true"
+                        poster="https://wolcengame.com/media_img/images/Warmongering_conquerors.max-1920x1920.jpg"
+                        data-src="https://wolcengame.com//media_docs/15/PST_NodeActivation.mp4"
                         src="https://wolcengame.com//media_docs/15/PST_NodeActivation.mp4" data-was-processed="true">
                         <source type="video/mp4" data-src="https://wolcengame.com//media_docs/15/PST_NodeActivation.mp4"
                             src="https://wolcengame.com//media_docs/15/PST_NodeActivation.mp4" />
@@ -190,14 +214,18 @@
     </div>
 
     <!-- Fourth video block -->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12 order-first col-lg-6 order-lg-last m-auto">
                 <h3>Un pour tous et tous pour un</h3>
-                <p>Lancez-vous seul dans la bataille ou invitez des amis à vous rejoindre avec la possibilité de jouer à 4 sur PS4, xbox, Switch et PC.</p>
+                <p>Lancez-vous seul dans la bataille ou invitez des amis à vous rejoindre avec la possibilité de jouer à
+                    4 sur PS4, xbox, Switch et PC.</p>
             </div>
             <div class="col-12 order-last col-lg-6 order-lg-first py-5 mx-auto">
-                <video class="videoFeatureLoop" muted="" loop="" controls="" playsinline="" webkit-playsinline="true" poster="https://wolcengame.com/static/images/hero_shipwreck.ae969d937fe4.jpg" data-src="https://wolcengame.com/media_docs/19/website_formeapo_uDyAywI.mp4"
+                <video class="videoFeatureLoop" muted="" loop="" autoplay="" controls="" playsinline=""
+                    webkit-playsinline="true"
+                    poster="https://wolcengame.com/static/images/hero_shipwreck.ae969d937fe4.jpg"
+                    data-src="https://wolcengame.com/media_docs/19/website_formeapo_uDyAywI.mp4"
                     src="https://wolcengame.com/media_docs/19/website_formeapo_uDyAywI.mp4" data-was-processed="true">
                     <source type="video/mp4"
                         data-src="https://wolcengame.com/media_docs/19/website_formeapo_uDyAywI.mp4"
@@ -208,6 +236,66 @@
         </div>
     </div>
     <!-- Fin Features -->
+    <footer class="container-fluid p-5" style="background-color:#000; ;">
+        <div class="row">
+            <!-- logo de contact -->
+            <div class="my-1 ml-3 col-md-12 text-md-center p-md-0">
+                <a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook  col-2 col-md-1"
+                        style="font-size: 30px; "></a></i>
+                <i class="fab fa-twitter  col-2 col-md-1" style="font-size: 30px;"></i>
+                <i class="fab fa-youtube-square  col-2 col-md-1" style="font-size: 30px;;"></i>
+                <i class="fab fa-instagram-square  col-2 col-md-1" style="font-size: 30px;"></i>
+                <i class="fab fa-discord  col-2 col-md-1" style="font-size:30px ;"></i>
+            </div>
+            <!-- logo jeux -->
+            <div class="col-md-5 mt-md-5">
+                <img class="img-fluid col-5 "
+                    src="https://media.discordapp.net/attachments/765837548307480606/766592633278955540/loclogo.png"
+                    alt="logos" />
+
+                <img class="col-6 "
+                    src="https://media.discordapp.net/attachments/765837548307480606/766579742437670922/CryEngine_Nex-Gen4th_Generation.png"
+                    alt="logos" />
+            </div>
+            <!-- copyright et pegi -->
+            <div class="col-md-6 mt-md-4">
+                <p class=" text-center my-4 " style="font-size: 15px;">Copyright© 2012-2020 miHoYo ALL
+                    RIGHTS
+                    RESERVED</br>
+                    "PlayStation Family Mark" and "PS4 logo" are registered trademarks or trademarks of Sony Interactive
+                    Entertainment Inc.</br>
+                </p>
+                <!-- pegi -->
+                <div class="col-12  p-0  my-4 ml-3 ">
+
+                    <img class="col-2 col-md-2 p-1  "
+                        src="https://webstatic-sea.mihoyo.com/upload/event/2020/09/14/58e2159074553f7b00eae57c1ae417c8_1826287937124303072.png"
+                        alt="icon">
+                    <img class="col-2 col-md-2 p-1  "
+                        src="https://images.blz-contentstack.com/v3/assets/blt3d2b37a4c9c0ce28/blt0982129cebd88ff4/5d5f3871cfdefb1cd5f95e4e/bad-language.1WAfa.png"
+                        alt="Grossierté" />
+                    <img class="col-2 p-1 col-md-2 "
+                        src="https://images.blz-contentstack.com/v3/assets/blt3d2b37a4c9c0ce28/blt41afb8697c086d1e/5d5f38717c931b106e8af5b3/violence.3D7mK.png"
+                        alt="Violences" />
+                    <img class="col-2 p-1   col-md-2 "
+                        src="https://images.blz-contentstack.com/v3/assets/blt3d2b37a4c9c0ce28/blt021aec17d05f075e/5d5f3871c6ec8a10fc770ae0/online-gameplay.3AgpR.png"
+                        alt="Jeu en ligne" />
+                    <img class="col-2 p-1  col-md-2 "
+                        src="https://images.blz-contentstack.com/v3/assets/blt3d2b37a4c9c0ce28/blt0737fa589ac451ba/5da0194f41d64904687cf533/ingames-purchase-white-FR.jpg"
+                        alt="Achats intégrés" />
+                </div>
+
+            </div>
+
+            <!-- politique de confidentialité -->
+            <div class=" text-center mx-auto   p-0 ">Politique de
+                confidentialité -
+                Conditions générales
+            </div>
+
+        </div>
+
+    </footer>
 
 
 
@@ -215,8 +303,8 @@
 
     <!--Fonction nav bar-->
     <script>
-        $(document).ready(function() {
-            $(document).click(function(event) {
+        $(document).ready(function () {
+            $(document).click(function (event) {
                 var clickover = $(event.target);
                 var _opened = $(".navbar-collapse").hasClass("show");
                 if (_opened === true && !clickover.hasClass("navbar-toggler")) {
@@ -236,7 +324,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
     </script>
->>>>>>> news
+    >>>>>>> news
 </body>
 
 </html>
