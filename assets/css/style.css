@@ -13,13 +13,11 @@
     src: url('../font/CatullBQ\ Italic.ttf');
 }
 
-<<<<<<< HEAD
 * {
     color: #D4D6B9;
     font-family: "CatullBQ Regular";
 }
 
-<<<<<<< HEAD
 
 /* Html, body, fontsize */
 
@@ -124,10 +122,10 @@ nav a:hover::before {
 
 
 /* end navbar */
-=======
+/*  news */
 #events {
     list-style-type: none;
-    display: block;
+
     border: rgb(213, 191, 134, .5) 2px solid;
     box-shadow: 0px 0px 15px 4px #D5BF86;
     border-radius: 5px;
@@ -143,7 +141,9 @@ nav a:hover::before {
 }
 
 hr{ background-color:#D5BF86;
-margin: 10%;}
+margin-left: 5%
+;margin-right: 5%;
+}
 li{margin-left: 5%;}
 
 #screen {
@@ -152,21 +152,10 @@ li{margin-left: 5%;}
 }
  #screen img{ max-width: 96%;
     border: rgb(213, 191, 134, .5) 2px solid;
+
+    /* end news */
     }  
 /* navbar */
-
-* {
-    color: #D4D6B9;
-    font-family: "CatullBQ Regular";
-}
-
-body {
-    background-color: #121415;
-    margin: 0;
-    font-size: 18px;
-}
-
-}
 
 header::after {
     content: '';
@@ -175,21 +164,15 @@ header::after {
 }
 
 
->>>>>>> news
-
 #bgvid {
     max-width: 100%;
     z-index: -1;
 }
 
-main,
-footer {
-    color: #D4D6B9;
-}
 
-#buying {
-    height: 575px;
-}
+a{list-style: none;
+color: tomato;}
+
 
 #buying,
 #features {
@@ -202,10 +185,6 @@ footer {
     padding: 30px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> news
 #platform {
     display: flex;
     justify-content: center;
@@ -218,12 +197,6 @@ select {
     padding: 2px 35px 2px 5px;
 }
 
-#news {
-    background-color: #250302;
-    color: #D5BF86;
-<<<<<<< HEAD
-    height: 600px;
-}
 
 article {
     max-width: 30%;
@@ -264,20 +237,13 @@ article img {
     text-align: center;
 }
 
-#buy {
-    margin-left: auto;
-    width: 150px;
-}
-
 #buy p {
     text-align: center;
     text-transform: uppercase;
 }
 
-#buynow {
-=======
-button{
->>>>>>> title
+
+#butlau{
     color: #D5BF86;
     cursor: pointer;
     background-color: transparent;
@@ -290,8 +256,9 @@ button{
     margin: 0 auto;
     padding: 5px;
     width: 150px;
+    
 }
-<<<<<<< HEAD
+
 
 #buynow2 {
     margin-top: 20px;
@@ -312,11 +279,7 @@ button{
 
 /* Footer */
 
-footer {
-    height: 300px;
-    margin-top: auto;
-    background-color: #000;
-}
+
 
 .socialMedias {
     font-size: 32px;
@@ -343,75 +306,9 @@ footer {
     float: left;
 }
 
-#newsScreen {
-    float: left;
-    width: 50%;
-    height: 500px;
-}
 
-#screen {
-    display: block;
-    border: rgb(213, 191, 134, .5) 2px solid;
-    margin: 73px auto;
-}
 
-#listContainer {
-    float: left;
-    width: 50%;
-    height: 505px;
-}
 
-#newsList {
-    list-style: none;
-    display: block;
-    height: 70%;
-    width: 80%;
-    border: rgb(213, 191, 134, .5) 2px solid;
-    border-radius: 5px;
-    margin: 70px auto;
-    padding-inline-start: 0;
-    box-shadow: 0px 0px 15px 4px #D5BF86;
-}
-
-#newsList>li {
-    width: 95%;
-    margin: 0 auto;
-    font-size: 25px;
-    padding: 9px 0;
-    background-color: #250302;
-    border-bottom: 1px solid rgb(255, 255, 255, .2);
-}
-
-#newsList>li:last-child {
-    border-bottom: none
-}
-
-#newsList>li:hover {
-    background-color: rgb(32, 32, 32);
-    transition: .4s;
-}
-
-.newsDate {
-    font-style: italic;
-}
-
-#newsList>p {
-    margin: 5px auto;
-}
-
-.pNews {
-    margin: 10px auto;
-}
-
-.newsDate {
-    color: rgb(213, 191, 134, 0.6);
-    padding-left: 40px;
-    font-size: 20px;
-}
-
-.newsTitle {
-    padding-left: 100px;
-}
 
 .newsItem {
     box-sizing: content-box;
@@ -450,12 +347,3 @@ footer {
         height: 6%
     }
 }
-=======
->>>>>>> title
-=======
-    height: 100%;
-
-
-
-
->>>>>>> news
